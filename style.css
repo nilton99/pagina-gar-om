@@ -1,0 +1,197 @@
+body {
+    display: inline-flexbox;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+header div {
+    background-color: rgb(46, 58, 97);
+    color: white;
+    height: 100px;
+    display: flex;
+}
+
+header img {
+    height: 100px;
+    width: 100px;
+}
+
+header div span {
+    font-size: 2em;
+}
+
+.cab {
+    display: block;
+}
+
+.subTitle {
+    font-size: 1, 5em;
+    color: rgb(153, 153, 248);
+}
+
+.mostradorMesa {
+    margin-left: 40px;
+}
+
+#logo {
+    height: 50px;
+}
+
+
+.input-wrapper i {
+    align-items: center;
+    color: rgb(135, 160, 235);
+}
+
+.input-wrapper input {
+    border: none;
+}
+
+
+.atalho span {
+    margin: 6px;
+    font-size: 1rem;
+}
+
+.recomendacaoDoChef {
+    margin-left: 13px;
+    margin-top: 20PX;
+}
+
+.recomendacao div {
+    display: inline-flexbox;
+    width: 120px;
+    margin-top: 10px;
+}
+
+.reco {
+    border-radius: 10px;
+    box-shadow: 2px 5px 3px 1px rgb(199, 199, 199);
+    margin-bottom: 30px;
+    height: 140px;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.dadosReco {
+    margin-top: 5px;
+
+}
+
+
+.abertura {
+    margin-left: 13px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.itensMenu {
+    display: flex;
+    margin-top: 10px;
+    height: 70px;
+    box-shadow: 2px 5px 3px 1px rgb(199, 199, 199);
+}
+
+
+.desc {
+    display: grid;
+    margin-left: 15px;
+    text-align: left;
+    justify-content: space-evenly;
+}
+
+.titleItem {
+    color: rgb(20, 27, 52);
+    text-align: left;
+    font-size: 1.2rem;
+}
+
+.descItem {
+    font-size: 10px;
+}
+
+.quant {
+    display: -webkit-box;
+    margin-left: auto;
+    width: 120px;
+}
+
+.menos {
+    background-color: rgb(69, 118, 161);
+    color: white;
+    border-radius: 50px;
+    width: 30px;
+    height: 30px;
+    font-size: 10px;
+}
+
+.mostrador {
+    width: 30px;
+    height: 30px;
+    border: none;
+}
+
+.mais {
+    background-color: rgb(69, 118, 161);
+    color: white;
+    border-radius: 50px;
+    width: 30px;
+    height: 30px;
+    font-size: 10px;
+}
+
+.mesa {
+    height: 50px;
+    width: 100px;
+    margin-left: 90px;
+}
+
+.especial {
+
+    width: 1.3em;
+    height: 1.3em;
+    background-color: rgb(188, 188, 188);
+    border-radius: 50%;
+    /* Isso faz a borda arredondada */
+    vertical-align: middle;
+    border: 3px solid #00000047;
+    -webkit-appearance: none;
+    appearance: none;
+    outline: none;
+}
+
+.especial:checked {
+    background-color: rgb(17, 17, 54);
+}
+
+.adicionar {
+    color: black;
+    font-size: 1rem;
+    text-align: center;
+    justify-content: center;
+}
+
+.novIten {
+    color: white;
+    height: 25px;
+    width: 150px;
+    margin-left: 30%;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.novIten {
+    background-color: rgb(69, 118, 161);
+    text-align: center;
+    margin-left: center;
+}
+
+footer {
+    background-color: rgb(46, 58, 97);
+    color: white;
+}
+.proximo {
+    margin-left:90%;
+    border: solid;
+}
